@@ -1,9 +1,9 @@
 # ----------------------------------
 # Sparked Host Custom Docker Image
-# Image: ghcr.io/sparkedhost/images:java-jre12
+# Image: ghcr.io/sparkedhost/images:java-jre18
 # ----------------------------------
 
-FROM        adoptopenjdk/openjdk12:debian-slim
+FROM        azul/prime:19
 
 LABEL       author="DevOps Team at Sparked Host" maintainer="sysadmin@sparkedhost.com"
 
